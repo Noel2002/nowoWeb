@@ -1,0 +1,13 @@
+.root{
+    margin-bottom: 10x;
+}
+.titleBox{
+    display: inline-block;
+    border-bottom: solid 3px black;
+    padding-bottom: 5px;
+}
+.text{
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+}

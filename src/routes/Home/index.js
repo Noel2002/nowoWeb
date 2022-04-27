@@ -1,9 +1,12 @@
 import React from 'react';
+import Skills from './Skills';
 import styles from './styles.module.css';
 
 const Home = () => {
   return (
-    <div  className={styles.root}>Home</div>
+    <>
+      <Skills />
+    </>
   )
 }
 
