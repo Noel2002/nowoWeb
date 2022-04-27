@@ -1,0 +1,24 @@
+.root{
+    padding: 80px 150px;
+}
+
+@media only screen and (max-width: 1024px) {
+    .root{
+        padding: 60px 100px;
+    }
+}
+@media only screen and (max-width: 768px) {
+    .root{
+        padding: 40px 40px;
+    }
+}
+@media only screen and (max-width: 600px) {
+    .root{
+        padding: 40px 30px;
+    }
+}
+@media only screen and (max-width: 400px) {
+    .root{
+        padding: 40px 20px;
+    }
+}

@@ -1,0 +1,27 @@
+.root{
+    width: 100%;
+    margin-top: 8px;
+}
+.title{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 16px;
+    margin-bottom: 5px;
+    font-weight: 400;
+    padding-right: 15px;
+
+}
+.outer{
+    width: 100%;
+    border: solid 1px brown;
+    background: rgb(240, 199, 189);
+    border-radius: 15px;
+
+}
+.inner{
+    width: 50%;
+    background: rgb(151, 48, 48);
+    height: 8px;
+    border-radius: 15px;
+}
