@@ -5,7 +5,7 @@ const Button = (props) => {
   const {foreColor, bgColor, customStyles} = props
   return (
     <div 
-      className={styles.root} 
+      className={`${styles.root} caption`} 
       style={{
         ...customStyles,
         backgroundColor: bgColor

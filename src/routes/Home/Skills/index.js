@@ -17,7 +17,12 @@ const Skills = () => {
       <Row container={true}>
         <Column>
             {paragraphs.map( paragraph =>(
-                <p key={paragraphId++}>{paragraph}</p>
+                <p 
+                  key={paragraphId++} 
+                  className={`text`}
+                >
+                  {paragraph}
+                </p>
             ))}
 
           <Button 

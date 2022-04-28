@@ -5,7 +5,7 @@ const ProgressBar = (props) => {
   const {fillColor, bgColor, value, title, customStyles} = props
   return (
     <div className={styles.root} style={customStyles}>
-        <div className={styles.title}>
+        <div className={`${styles.title} caption`}>
             <div>{title?title:"ProgressBar"}</div>
             <div>{`${value<=100?value:100}%`}</div>
         </div>
