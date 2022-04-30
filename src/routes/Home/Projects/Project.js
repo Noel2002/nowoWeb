@@ -16,7 +16,7 @@ const Project = (props) => {
   return (
     <Row>
         <Column>
-            <Image source={project.image} alt={project.title}/>
+            <Image source={project.image} alt={project.title} orientation="landscape" />
         </Column>
         <Column>
             <div className={styles.root}>

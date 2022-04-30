@@ -48,3 +48,21 @@ export const projects = [
         to: "2021"
     },
 ]
+
+export const testimonials = [
+    {
+        name: "Mackie Anthony",
+        testimony: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+        image: 'https://static.toiimg.com/thumb/msid-69972900,imgsize-121393,width-800,height-600,resizemode-75/69972900.jpg'
+    },
+    {
+        name: "John Doe",
+        testimony: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+        image: 'https://res.cloudinary.com/nowo-ltd/image/upload/v1651338336/porto/istockphoto-518185032-612x612_gi4rwj.jpg'
+    },
+    {
+        name: "Kamana Ivan",
+        testimony: "Lorem ipsum dolor sit amet, ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+        image: 'https://res.cloudinary.com/nowo-ltd/image/upload/v1651338361/porto/Hidden_costs_of_being_black_0d814453-4995-40bc-8b72-3b9187955585-prv_pm2bwg.jpg'
+    },
+]
