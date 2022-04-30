@@ -3,10 +3,12 @@ import styles from './styles.module.css';
 
 
 const Image = (props) => {
-  const {source} = props
+  const {source, alt} = props
   return (
-    <div className={styles.root}>
-        <img src={source} className={styles.image}/>
+    <div 
+      className={styles.root}
+    >
+        <img src={source} className={styles.image} alt={alt} />
     </div>
   )
 }

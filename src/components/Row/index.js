@@ -1,7 +1,6 @@
 import React from 'react';
 import {Grid}  from "@mui/material";
 import styles from './styles.module.css';
-import SectionTitle from '../sectionTitle';
 
 const Row = (props) => { 
   const {customStyles} = props
@@ -11,9 +10,14 @@ const Row = (props) => {
         className={styles.root}
         style={customStyles}
         container 
-        spacing={{
-          xs:5,
-          md:10
+        rowSpacing={{
+          xs:0,
+          md:6
+        }}
+        columnSpacing={{
+          sm: 2,
+          md:5,
+          lg: 12
         }}
     >
         {props.children}

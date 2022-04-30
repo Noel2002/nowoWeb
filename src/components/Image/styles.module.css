@@ -1,7 +1,12 @@
 .root{
     width: 100%;
-    overflow: hidden;
+    position: relative;
+    padding-top: 56.25%;
 }
 img.image{
+    position: absolute;
+    height: 100%;
     width: 100%;
+    top: 0;
+    object-fit: cover;
 }
