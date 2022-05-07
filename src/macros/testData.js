@@ -1,3 +1,7 @@
+import InstagramIcon from '@mui/icons-material/Instagram';
+import TwitterIcon from '@mui/icons-material/Twitter';
+import GitHubIcon from '@mui/icons-material/GitHub';
+import LinkedInIcon from '@mui/icons-material/LinkedIn';
 export const skills = [
     {
         title: "C++",
@@ -65,4 +69,32 @@ export const testimonials = [
         testimony: "Lorem ipsum dolor sit amet, ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
         image: 'https://res.cloudinary.com/nowo-ltd/image/upload/v1651338361/porto/Hidden_costs_of_being_black_0d814453-4995-40bc-8b72-3b9187955585-prv_pm2bwg.jpg'
     },
+]
+
+export const socials = [
+    {
+        id: 1,
+        name:"instagram",
+        icon: InstagramIcon,
+        link: "#instagram"
+    },
+    {
+        id: 2,
+        name:"twitter",
+        icon: TwitterIcon,
+        link: "#twitter"
+    },
+    {
+        id: 3,
+        name:"github",
+        icon: GitHubIcon,
+        link: "#github"
+    },
+    {
+        id: 4,
+        name:"linkedIn",
+        icon: LinkedInIcon,
+        link: "#linkedIn"
+    },
+
 ]

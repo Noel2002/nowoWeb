@@ -1,15 +1,15 @@
 import React from 'react'
-import Image from '../../components/Image'
-import Row from '../../components/Row'
-import Column from '../../components/Row/Column'
-import { colors } from '../../global/colors'
+import Image from '../../../components/Image'
+import Row from '../../../components/Row'
+import Column from '../../../components/Row/Column'
+import { colors } from '../../../global/colors'
 import styles from './styles.module.css'
 import ArrowBackIcon from '@mui/icons-material/ArrowBack';
 import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
 
 
 const Testimonial = (props) => {
-  const {testmonial, prev, next,index} = props
+  const {testmonial, prev, next} = props
   return (
     <Row>
         <Column>

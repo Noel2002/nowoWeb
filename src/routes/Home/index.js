@@ -1,15 +1,15 @@
 import React from 'react';
-import Testimonials from '../Testmonials';
+import Testimonials from './Testmonials';
 import Projects from './Projects';
 import Skills from './Skills';
-import styles from './styles.module.css';
-
+import Footer from '../../components/Footer';
 const Home = () => {
   return (
     <>
       <Skills />
       <Projects />
       <Testimonials />
+      <Footer />
     </>
   )
 }

@@ -1,10 +1,14 @@
-import { isEditableInput } from '@testing-library/user-event/dist/utils'
 import React,{useState} from 'react'
-import Section from '../../components/Section'
-import SectionTitle from '../../components/sectionTitle'
-import { colors } from '../../global/colors'
-import { testimonials } from '../../macros/testData'
-import Testimonial from './Testimonial'
+import Section from '../../../components/Section';
+import SectionTitle from '../../../components/sectionTitle';
+import { colors } from '../../../global/colors';
+import { testimonials } from '../../../macros/testData';
+import Testimonial from './Testimonial';
+// import Section from '../../components/Section'
+// import SectionTitle from '../../components/sectionTitle'
+// import { colors } from '../../global/colors'
+// import { testimonials } from '../../../macros/testData'
+// import Testimonial from './Testimonial'
 
 const Testimonials = () => {
   let testmonialKey = 0;
@@ -31,7 +35,6 @@ const Testimonials = () => {
                 testmonial={testimonials[index]} 
                 next={next} 
                 prev={prev}
-                index={index}
             />
 
         
