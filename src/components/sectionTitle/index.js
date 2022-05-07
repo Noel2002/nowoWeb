@@ -2,9 +2,9 @@ import React from 'react';
 import styles from './styles.module.css';
 
 const SectionTitle = (props) => {
-  const {title, color} = props;
+  const {title, color, customStyles}  = props;
   return (
-    <div className={styles.root}>
+    <div className={styles.root} style={customStyles}>
         <span 
             className={`${styles.titleBox}`} 
             style={{borderColor: color?color:'black'}}
@@ -13,7 +13,7 @@ const SectionTitle = (props) => {
                 className={styles.text}
                 style={{color: color?color:"black"}}
             >
-                {title}
+                {title?title:props.children}
             </span>
         </span>
     </div>

@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
+.testimony-wrapper{
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.image-wrapper{
+    width: 100%;
+    display: flex;
+    min-height: 100%;
+}
+.testimony-container{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: center;
+}
+.apostrophe{
+    font-size: 60px;
+    font-family: 'Secular One', sans-serif;
+}
+.testimony{
+    font-size: 20px;
+}
+.author{
+    text-align: right;
+    font-weight: bold;
+}
+.controls{
+    padding: 15px 0px;
+    display: flex;
+    justify-content: space-between;
+}
+.control-btn{
+    display: flex;
+    flex-direction: row;
+    cursor: pointer;
+}
+.caption{
+    display: inline-block;
+    padding: 0px 5px;
+    font-weight: bold;
+}
+
+
+@media only screen and (max-width: 1024px) {
+        
+}
+  
+@media only screen and (max-width: 768px) {
+    .testimony{
+        font-size: 17px;
+    }
+}
+  
+@media only screen and (max-width: 600px) {
+
+}
+
+@media only screen and (max-width: 400px) {
+    .testimony{
+        font-size: 16px;
+    }
+    .apostrophe{
+        font-size: 40px;
+    }
+}
