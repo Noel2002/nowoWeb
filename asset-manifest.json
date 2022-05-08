@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/nowoWeb/static/css/main.6a22078e.css",
+    "main.js": "/nowoWeb/static/js/main.ac6b49be.js",
+    "index.html": "/nowoWeb/index.html",
+    "main.6a22078e.css.map": "/nowoWeb/static/css/main.6a22078e.css.map",
+    "main.ac6b49be.js.map": "/nowoWeb/static/js/main.ac6b49be.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6a22078e.css",
+    "static/js/main.ac6b49be.js"
+  ]
+}
