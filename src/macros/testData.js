@@ -98,3 +98,22 @@ export const socials = [
     },
 
 ]
+
+export const navLinks = [
+    {
+        title: "Home",
+        href: '#'
+    },
+    {
+        title: "About",
+        href: '#about'
+    },
+    {
+        title: "Blogs",
+        href: '#blogs'
+    },
+    {
+        title: "contacts",
+        href: '#contacts'
+    },
+]

@@ -22,7 +22,7 @@ const Testimonial = (props) => {
             <div className={`${styles['testimony-wrapper']}`}>
                 <div className={`${styles['testimony-container']}`}>
                     <div className={styles.apostrophe}>
-                        "
+                        <span>"</span>
                     </div>
                     <p 
                         className={`${styles.testimony}`}
