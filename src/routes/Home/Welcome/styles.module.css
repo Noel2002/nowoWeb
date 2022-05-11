@@ -11,21 +11,21 @@
 
 @media only screen and (max-width: 1024px) {
     .root{
-        padding: 20px 100px;
+        padding: 40px 100px;
     }
 }
 @media only screen and (max-width: 768px) {
     .root{
-        padding: 10px 40px;
+        padding: 30px 40px;
     }
 }
 @media only screen and (max-width: 600px) {
     .root{
-        padding: 10px 30px;
+        padding: 25px 30px;
     }
 }
 @media only screen and (max-width: 400px) {
     .root{
-        padding: 5px 20px;
+        padding: 20px 20px;
     }
 }

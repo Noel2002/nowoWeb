@@ -2,6 +2,12 @@ import InstagramIcon from '@mui/icons-material/Instagram';
 import TwitterIcon from '@mui/icons-material/Twitter';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
+
+//Aboutme contacts icons 
+import PhoneIcon from '@mui/icons-material/Phone';
+import LocationOnIcon from '@mui/icons-material/LocationOn';
+import EmailIcon from '@mui/icons-material/Email';
+
 export const skills = [
     {
         title: "C++",
@@ -115,5 +121,28 @@ export const navLinks = [
     {
         title: "contacts",
         href: '#contacts'
+    },
+]
+
+export const aboutMe = {
+    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. \nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.',
+    image: 'https://res.cloudinary.com/nowo-ltd/image/upload/v1644324164/porto/NEW_andela_pic_q2yrzx.jpg'
+}
+
+export const aboutMeContacts = [
+    {
+        title: "phone",
+        icon: PhoneIcon,
+        details: ['+852 000999', '+250 000999']
+    },
+    {
+        title: "Address",
+        icon: LocationOnIcon,
+        details: ['Hung Hum, Kowloon, Hong Kong']
+    },
+    {
+        title: "Email",
+        icon: EmailIcon,
+        details: ['example@email.rw']
     },
 ]
