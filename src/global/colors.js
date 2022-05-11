@@ -7,7 +7,8 @@ export const colors ={
     brown:{
         strong: "#490F02F2",
         regular: "#972A12",
-        light: "#BFA19B"
+        light: "#BFA19B",
+        extraLight: '#fcf5f3'
     },
     black:{
         strong: "#000000",
