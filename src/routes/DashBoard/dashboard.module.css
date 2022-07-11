@@ -1,0 +1,18 @@
+.root{
+    display: flex;
+}
+.aside, .main{
+    padding-top: 80px;
+}
+.aside{
+    width: 350px;
+    padding-left: 40px;
+    background-color: black;
+    color: white;
+
+}
+.main{
+    flex-grow: 1;
+    padding-left: 40px;
+    background: pink;
+}
